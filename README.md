@@ -64,3 +64,31 @@ vi. Write a program to increment the date
    Otherwise, set day = 1 and increment month
 7. Display the new date
 8. Stop
+
+vii.Problem Statement: Write a program to calculate the gross salary of an employee based: if basic <=10000 : HRA = 20%, DA= 80%, if basic <= 20000 : HRA = 25%, DA = 90% otherwise: HRA = 30%, DA = 95%,salary=basic+DA+HRA.
+ 1. Start
+ 2. Read the basic salary
+ 3. If basic salary ≤ 10,000: Set HRA = 20% of basic and Set DA = 80% of basic
+ 4. Else if basic salary ≤ 20,000: Set HRA = 25% of basic and Set DA = 90% of basic
+ 5. Else: Set HRA = 30% of basic and Set DA = 95% of basic
+ 6. Calculate Gross Salary = Basic + HRA + D
+ 7. Display the Gross Salary
+ 8. Stop
+
+viii. Write a Python program to calculate income tax based on annual income, Up to Rs.2,50,000: No Tax, Rs.2,50,000 - Rs.5,00,000: 5%, Rs.5,00,000 - Rs.10,00,000: 20%, Above Rs.10,00,000: 30%
+ 1. Start
+ 2. Read the annual income
+ 3. If income ≤ 2,50,000, set tax = 0
+ 4. Else if income ≤ 5,00,000, calculate tax = 5% of (income − 2,50,000)
+ 5. Else if income ≤ 10,00,000, calculate tax = 5% of 2,50,000 + 20% of (income − 5,00,000)
+ 6. Else, calculate tax = 5% of 2,50,000 + 20% of 5,00,000 + 30% of (income − 10,00,000)
+ 7. Display the tax
+ 8. Stop
+
+ix. Identify weather given character is vowel or consonent
+ 1. Start
+ 2. Read a character
+ 3. If the character is not an alphabet, display “Not an Alphabet”
+ 4. Else if the character is a vowel, display “Vowel
+ 5. Else display “Consonant”
+ 6. Stop
